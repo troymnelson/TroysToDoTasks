@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" conent="width=device-width, initial-scale=1.0">
+        <title>Troys Tasks</title>
+
+    </head>
+    <body>
+        <div id="main">
+            <h1 id="title">ToDo List</h1>
+            <form>
+                <label for="task">Enter a task with it's priority:</label>
+                <input type="text" id="task" name="task" placeholder="Enter a task">
+                <select id="priority" name="priority">
+                    <option value="!">!</option>
+                    <option value="!!">!!</option>
+                    <option value="!!!">!!!</option>
+                </select>
+                <input type="submit" value="Add" id="submitBtn">
+            </form>
+            <ul id='tasks'>
+
+            </ul>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
